@@ -102,7 +102,7 @@
     $ps1-> setData("19/12/1991");
     echo $ps1-> __toString()."<br>"; 
 
-    $ps2 = new Employee("Piero","Bullone","2000$");
+    $ps2 = new Employee("Piero","Bullone",$stipendio);
     $ps2-> setdataAssunzione("14/10/2022");
     $ps2-> setStipendio("2500$");
 
